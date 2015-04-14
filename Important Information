@@ -1,0 +1,25 @@
+--------------------------------------------------------------
+SYNC V.1.0 
+@Tommy Yasewicz, Alex Wilson, Yaron Shahverdi
+--------------------------------------------------------------
+
+Spotify API Info
+
+Client ID - 4476c0ea82b849cab6e92c729855ae60
+Client Secret - c95d87285c32482c84118f112615f336
+--------------------------------------------------------------
+
+Key Commands
+
+$cordova build 
+$cordova build ios
+$cordova build android
+$cordova build browser
+
+$cordova emulate ios
+$cordova emulate android
+
+$cordova run ios
+$cordova run android
+
+--------------------------------------------------------------

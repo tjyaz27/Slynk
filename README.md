@@ -1,23 +1,24 @@
 --------------------------------------------------------------
-SYNC V.1.0 @Tommy Yasewicz, Alex Wilson, Yaron Shahverdi
+SYNC V.1.0 
+@Tommy Yasewicz, Alex Wilson, Yaron Shahverdi
 --------------------------------------------------------------
 
 Folder Directory
 
 1) Sync
-		Folder containing the cordova web application code.
+	Folder containing the cordova web application code.
 
 2) Sketches
-		Preliminary sketches for GUI component of app.
+	Preliminary sketches for GUI component of app.
 
 --------------------------------------------------------------
 
 Version Guide
 
 Version 1.0 uses the cordova app framework that supports IOS, 
-Android, and Browser Applications. The App suports the ability 
-to sync with other users to create a seamless music voting 
-experience. To run please see idividual documentation on running
+Android, and Browser Applications. The App suports the ability
+to sync with other users to create a seamless music voting
+experience. To run please see idividual documentation on running 
 the desired and supported OS.
 
 --------------------------------------------------------------
