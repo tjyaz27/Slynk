@@ -11,6 +11,9 @@ Folder Directory
 2) Sketches
 	Preliminary sketches for GUI component of app.
 
+3) Ad Hoc
+	Personal work related to tutorials and scripts
+
 --------------------------------------------------------------
 
 Version Guide

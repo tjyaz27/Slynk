@@ -23,3 +23,9 @@ $cordova run ios
 $cordova run android
 
 --------------------------------------------------------------
+
+TODO 
+
+Install Bower [Optional] - This is a great way of installing packages like J Query
+Install JQuery
+Install Handlebars
