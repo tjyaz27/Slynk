@@ -8,14 +8,15 @@
 	<title>Test HTML for Handlebars</title>
 </head>
 <body>
-Test: 
 
-<script id="address-template" type="text/x-handlebars-template">
-  <p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
-</script>
+	<script id="address-template" type="text/x-handlebars-template">
+		{{#each information}}
+	  		<p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
+		{{/each}}
+	</script>
 
 
-<div class="content-placeholder"></div>
+	<div class="content-placeholder"></div>
 
 
 

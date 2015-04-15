@@ -7,9 +7,18 @@ $(function () {
 
   // Define our data object
   var context={
-    "city": "London",
-    "street": "Baker Street",
-    "number": "221B"
+    information: [
+      {
+        city: "London",
+        street: "Baker Street",
+        number: "221B"
+      },
+      {
+        city: "New Paltz",
+        street: "Jenkinstown Rd.",
+        number: "55"
+      },
+    ]
   };
 
   // Pass our data to the template
