@@ -5,6 +5,14 @@
 	<script src="bower_components/handlebars/handlebars.min.js"></script>
 	<script src="test.js"></script>
 
+	<script>
+			
+			
+xmlhttp.open("GET","https://api.spotify.com/v1/search?q=Muse&type=track&market=US",true);
+xmlhttp.send();
+document.getElementById("id01").innerHTML=xmlhttp.responseText;
+
+	</script>
 	<title>Test HTML for Handlebars</title>
 </head>
 <body>
@@ -17,6 +25,12 @@
 
 
 	<div class="content-placeholder"></div>
+
+
+
+	<div id="id01"></div>
+
+	
 
 
 
