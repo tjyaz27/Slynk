@@ -46,3 +46,122 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 
 2015-04-14 19:40:52.649 Sync[11066:466966] Resetting plugins due to page load.
 2015-04-14 19:40:52.693 Sync[11066:466966] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/81B02DFD-24DD-492E-9301-E223C7DE7AD7/Sync.app/www/index.html
+2015-04-16 14:11:32.959 Sync[14709:929796] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Data/Application/B1279788-3831-46BC-8F1C-765E3981E51A/Library/Cookies/Cookies.binarycookies
+2015-04-16 14:11:33.470 Sync[14709:929796] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-16 14:11:33.470 Sync[14709:929796] Multi-tasking -> Device: YES, App: YES
+2015-04-16 14:11:33.494 Sync[14709:929796] Unlimited access to network resources
+2015-04-16 14:11:33.516 Sync[14709:929796] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-16 14:11:34.507 Sync[14709:929796] Resetting plugins due to page load.
+2015-04-16 14:11:38.178 Sync[14709:929796] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/EFB52D78-BC14-4BE0-A8B6-5D803ACD1C4F/Sync.app/www/index.html
+2015-04-16 16:17:45.418 Sync[14709:1017684] Terminating since there is no system app.
+2015-04-19 19:15:17.276 Sync[7194:99562] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:15:17.278 Sync[7194:99562] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:15:17.303 Sync[7194:99562] Unlimited access to network resources
+2015-04-19 19:15:17.318 Sync[7194:99562] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:15:18.169 Sync[7194:99562] Resetting plugins due to page load.
+2015-04-19 19:15:18.358 Sync[7194:99562] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/2751CC47-D390-446F-9588-6B8557F446D9/Sync.app/www/index.html
+2015-04-19 19:17:44.866 Sync[7516:101424] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:17:44.867 Sync[7516:101424] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:17:44.869 Sync[7516:101424] Unlimited access to network resources
+2015-04-19 19:17:44.872 Sync[7516:101424] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:17:45.034 Sync[7516:101424] Resetting plugins due to page load.
+2015-04-19 19:17:45.129 Sync[7516:101424] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/8A6B2BAC-611B-40FE-A5ED-DFA62DC07330/Sync.app/www/index.html
+2015-04-19 19:18:33.429 Sync[7821:102231] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:18:33.430 Sync[7821:102231] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:18:33.432 Sync[7821:102231] Unlimited access to network resources
+2015-04-19 19:18:33.435 Sync[7821:102231] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:18:33.609 Sync[7821:102231] Resetting plugins due to page load.
+2015-04-19 19:18:33.690 Sync[7821:102231] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/0AA1281A-0645-4128-87D9-7672DF45E583/Sync.app/www/index.html
+2015-04-19 19:19:00.903 Sync[8125:102989] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:19:00.904 Sync[8125:102989] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:19:00.907 Sync[8125:102989] Unlimited access to network resources
+2015-04-19 19:19:00.911 Sync[8125:102989] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:19:01.083 Sync[8125:102989] Resetting plugins due to page load.
+2015-04-19 19:19:01.176 Sync[8125:102989] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/1E25D499-4E64-4AD7-9535-3133974C65BD/Sync.app/www/index.html
+2015-04-19 19:20:25.405 Sync[8434:104219] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:20:25.405 Sync[8434:104219] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:20:25.408 Sync[8434:104219] Unlimited access to network resources
+2015-04-19 19:20:25.412 Sync[8434:104219] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:20:25.601 Sync[8434:104219] Resetting plugins due to page load.
+2015-04-19 19:20:25.694 Sync[8434:104219] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/C9ACE892-3358-46BC-807B-E29417C6D732/Sync.app/www/index.html
+2015-04-19 19:21:02.722 Sync[8738:104965] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:21:02.723 Sync[8738:104965] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:21:02.726 Sync[8738:104965] Unlimited access to network resources
+2015-04-19 19:21:02.729 Sync[8738:104965] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:21:02.899 Sync[8738:104965] Resetting plugins due to page load.
+2015-04-19 19:21:02.979 Sync[8738:104965] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/5BEC3B42-F12A-4552-9DA9-6667E7F7DB28/Sync.app/www/index.html
+2015-04-19 19:44:47.287 Sync[9106:116825] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:44:47.289 Sync[9106:116825] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:44:47.292 Sync[9106:116825] Unlimited access to network resources
+2015-04-19 19:44:47.295 Sync[9106:116825] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:44:47.450 Sync[9106:116825] Resetting plugins due to page load.
+2015-04-19 19:44:47.539 Sync[9106:116825] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/DC75146F-26DC-4521-88A8-9F0CE4F3B67F/Sync.app/www/index.html
+2015-04-19 19:58:18.147 Sync[9433:125569] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-19 19:58:18.149 Sync[9433:125569] Multi-tasking -> Device: YES, App: YES
+2015-04-19 19:58:18.152 Sync[9433:125569] Unlimited access to network resources
+2015-04-19 19:58:18.155 Sync[9433:125569] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-19 19:58:18.306 Sync[9433:125569] Resetting plugins due to page load.
+2015-04-19 19:58:18.396 Sync[9433:125569] Finished load of: file:///Users/Alex/Library/Developer/CoreSimulator/Devices/31E8F08E-D80E-46FA-888E-5EA2FF20749B/data/Containers/Bundle/Application/857F3AC9-8481-40D8-B108-C60DC8880BA2/Sync.app/www/index.html

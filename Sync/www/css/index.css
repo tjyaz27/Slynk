@@ -16,3 +16,24 @@ body {
 .cover.playing {
     border: 5px solid #e45343;
 }
+
+.custom-search-form{
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: screen.width;
+}
+
+#trackValue {
+	width: 75%;
+}
+#searchButton {
+	width: 20%;
+	float: right;
+}
+
+img {
+
+	height: 100px;
+	width: 100px;
+}
