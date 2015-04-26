@@ -1,6 +1,19 @@
 body {
     padding: 20px;
 }
+#header{
+    background-color:rgb(98,96,96);
+}
+.HeaderLogoWrapper{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#account{
+    text-align:right;
+    padding:0px;
+}
 #search-form, .form-control {
     margin-bottom: 20px;
 }
@@ -29,7 +42,7 @@ body {
 }
 #searchButton {
 	width: 20%;
-	float: right;
+	float: left;
 }
 
 img {
