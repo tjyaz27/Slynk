@@ -1,0 +1,21 @@
+#header-banner img{
+	float:right;
+	padding-top: 10px;
+}
+#gear-banner img{
+	padding-top: 25px;
+	padding-left: 600px;
+}
+#acc h1{
+	font-size: 12px;
+	position: relative;
+	left: 440px;
+	padding-top: 30px;
+}
+#side_but img{
+	width: 27px;
+	height: 18px;
+	position: relative;
+	right: 1380px;
+	padding-top: 30px;
+}
