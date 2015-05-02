@@ -1,4 +1,4 @@
-#Logo img{
+#header-banner img{
 	float:right;
 	padding-top: 10px;
 }
@@ -10,7 +10,7 @@
 #acc h1{
 	font-size: 12px;
 	position: relative;
-	left: 475px;
+	left: 490px;
 	top: 9px;
 }
 #side_but img{
@@ -18,7 +18,7 @@
 	height: 18px;
 	position: relative;
 	top: 28px;
-	right: 350px;
+	right: 1400px;
 }
 #account{
     text-align:right;
