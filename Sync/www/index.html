@@ -5,16 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="robots" content="index,follow">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
     <title>Slynk - Link With Friend, Sync With Trends</title>
 
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 
-    </head>
+</head>
     <body>
 
         <div class="container12">
@@ -48,10 +52,37 @@
                     </div>
 
                 </div>
-
             </header>
         </div>
-
-
+        <div class="container12">
+            <h1>
+                <div class="row">
+                    <div class="column7">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" id="trackValue">
+                            <input type="submit" class="btn btn-info" value="Go" id="searchButton" onclick="searchFunc()" >
+                        </div>
+                    </div>
+                </div>
+            </h1>
+        </div>
     </body>
+
+                
+
+        <script id="address-template" type="text/x-handlebars-template">
+            {{#each information}}
+                <p id="AlbumArt"><img src={{picture}}> {{track}} <b>{{artist}} </b>{{album}}</p>
+            {{/each}}
+        </script>
+
+        <div class="content-placeholder"></div>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/searchArtist.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/handlebars/handlebars.min.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     </html>
