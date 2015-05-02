@@ -1,48 +1,70 @@
+/*Logo Banner*/
 #Logo img{
     float: center;
     padding-top: 10px;
     position: relative;
-    left: 50px;
     width: 160px;
     height: 56px;
+    left: 175px;
 }
 #gear-banner img{
     position: relative;
-    left: 550px;
+    float: right; 
     top: 22px;
+    left:15px;
     width: 25px;
     height: 25px; 
 }
 #acc h1{
     font-size: 12px;
+    color: black;
     position: relative;
-    left: 425px;
+    float: left;
     top: 9px;
+    right:13px;
 }
 #side_but img{
     width: 27px;
     height: 18px;
     position: relative;
-    top: 28px;
-    right: 350px;
+    top: 22px;
+    left:15px;
 }
 #account{
     text-align:right;
     padding:0px;
 }
+/*End Logo Banner*/
+/*Group Banner*/
 #Users img{
     position: relative;
     top: 9px;
+    left: 10px;
 }
 #NUsers{
+    font-size: 20px;
+    text-decoration: none;
     position: relative;
-    top: 9px;
+    top: 12px;
+    right: 285px;
+    color: white;
 }
 #Heart img{
     width: 31px;
     height: 28px;
     position: relative;
-    top: 9px;
+    float: right;
+    right: 80px;
+    top: 13px;
+}
+#GroupInfo{
+    float: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 175px;
+    top: 10px;
+    font-size: 30px;
 }
 #search-form, .form-control {
     margin-bottom: 20px;
