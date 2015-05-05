@@ -1,14 +1,14 @@
 body{
      font-family:'Oswald';
+     background:url("file:///C:/Users/tjyaz_000/Documents/GitHub/Sync/Sync/img/AppBackground.png") top left repeat;
 }
 /*Logo Banner*/
 #Logo img{
     float: center;
     padding-top: 10px;
     position: relative;
-    width: 140px;
+    width: 46px;
     height: 46px;
-    left: 175px;
 }
 #gear-banner img{
     position: relative;
@@ -106,5 +106,9 @@ body{
 }
 #Background{
     background-color: #b0c4de;
+}
+#LandLogo img{
+    width: 50%;
+    height: 50%;
 }
 
