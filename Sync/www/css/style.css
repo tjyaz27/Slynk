@@ -1,7 +1,10 @@
+body{
+     font-family:'Oswald';
+ }
 #LandLogo img{
     position: relative;
-    top: 600px;
-    left: 1650px;
+    top: 500px;
+    left: 800px;
     max-width: 40%;
     max-height: 40%;
 }
@@ -9,4 +12,30 @@
 	position: relative;
 	top: 756px;
 	left:400px;
+}
+#Help{
+	text-decoration: none;
+	font-size: 40px;
+	width: 100%;
+	text-align: left;
+	color: #6E6E6E;
+}
+#LogIn{
+	text-decoration: none;
+	font-size: 50px;
+	font-weight: 500;
+	width: 100%;
+	text-align: center;
+	color: #FFA509;
+}
+#Download{
+	font-family:'Oswald';
+	text-decoration: none;
+	font-size: 40px;
+	width: 100%;
+	text-align: right;
+	color: #6E6E6E;
+}
+#HeadOutline{
+	outline-color: #FFA509;
 }

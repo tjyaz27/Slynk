@@ -1,6 +1,6 @@
 body{
      font-family:'Oswald';
-     background:url("file:///C:/Users/tjyaz_000/Documents/GitHub/Sync/Sync/img/AppBackground.png") top left repeat;
+     background:url("img/AppBackground.png") top left repeat;
 }
 /*Logo Banner*/
 #Logo img{
@@ -107,8 +107,5 @@ body{
 #Background{
     background-color: #b0c4de;
 }
-#LandLogo img{
-    width: 50%;
-    height: 50%;
-}
+
 
