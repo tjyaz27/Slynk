@@ -1,5 +1,12 @@
 #LandLogo img{
     position: relative;
-    top: 500px;
-    left: 1250px;
+    top: 600px;
+    left: 1650px;
+    max-width: 40%;
+    max-height: 40%;
+}
+#SyncIconFlashF{
+	position: relative;
+	top: 756px;
+	left:400px;
 }
