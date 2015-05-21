@@ -36,26 +36,37 @@
     <h1 style="text-align: center; color:#737373">Introducing <span style="color:#FFA509">Slynk</span></h1>
     <p style="text-align: center; color:#737373">The app that lets you <span style="color: #FFA509; font-weight: bold">Sync</span> with the trends, and<span style="color: #FFA509; font-weight: bold"> Link</span> with your friends!</p>
   </div>
+
   <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="col-sm-4" id="syncCont" style="border-radius: 15px; border: 1px solid #FFA509; height: 125px">
+      <h3 id="SyncI" style="color:#FFA509; text-align:center">Sync</h3>
+      <p id="syncFill" style="color:#FF9900">Match song timestamps with your friends on all devices so everyone can enjoy the same music together.</p>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>ChickenPotPie</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4" id="linkCont" style="border-radius: 15px; border: 1px solid #FFA509; height: 125px">
+      <h3 id="LinkI" onclick="linkClick()" style="color:#FFA509; text-align:center">Link</h3>
+      <p id="linkFill" style="color:#FF9900">Join private or public rooms to connect with friends and share music.</p>
     </div>
   </div>
-</div>
+  <div class="row" style="padding-top: 50px">
+    <div class="col-sm-4" id="qCont" style="border-radius: 15px; border: 1px solid #FFA509; height: 125px">
+      <h3 id="qI" onclick="qClick()" style="color:#FFA509; text-align:center">Queue</h3>
+      <p id="qFill" style="color:#FF9900">Connect to Spotify and add the music you want to hear to the room queue.</p>
+    </div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4" id="hostCont" style="background-color: #232323; background-image: url('img/Host.png'); border-radius: 15px; border: 1px solid #FFA509; height: 300px">
+      <h3 id="hostI" style="color:#FFA509; text-align:center; font-size: 30px">Host</h3>
+      <p id="hostFill" style="color:#FF9900; font-size: 20px">Be in charge of the music played in your room, or let the group decide! Manage privileges for users in the room and the way the room queue is handled.</p>
+    </div>
+  </div>
+  <div class="row" style="padding-top: 50px">
+    <div class="col-sm-4" style="background-color: #232323; background-image: url('img/mic.png'); border-radius: 15px; border: 1px solid #FFA509; height: 300px">
+      <h3 style="color:#FFA509; text-align:center; font-size: 30px">Create</h3>
+      <p style="color:#FF9900; font-size: 20px">Add original sound clips to queue either pre-recorded or on the fly through your device's microphone. Host your own public or private radio show, podcast, DJ set and more!</p>
+    </div>
+  </div>
 
-<div class="container" style="border: 1px solid #FFA509">
+<div class="container">
   <div id="modal" class="popupContainer" style="border: 2px outset #FFA509; display:none">
     <header class="popupHeader">
       <span class="header_title">Login</span>
@@ -143,6 +154,25 @@
     </section>
   </div>
 </div>
+<img id="Logo" class="img-responsive" src="img/IconOrangeStill.png" alt="Sync">
+<div class="row" style="border-top: 1px solid #FFA509">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>ChickenPotPie</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+  </div>
 
 <script type="text/javascript">
   $("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
@@ -174,7 +204,35 @@
 
   })
 </script>
-<img id="Logo" class="img-responsive" src="img/IconOrangeStill.png" alt="Sync"> 
+<!--<script>
+function featuresList(){
+    document.getElementById("SyncI").innerHTML = "Sync";
+    document.getElementById("LinkI").innerHTML = "Link";
+    document.getElementById("hostI").innerHTML = "Host";
+    document.getElementById("qI").innerHTML = "Queue";
+}
+function syncClick() {
+    syncCont.style.border = "1px solid #FFA509";
+    syncCont.style.background = "#232323";
+    document.getElementById("syncFill").innerHTML = "Match song timestamps with your friends on all devices so everyone can enjoy the same music together.";
+}
+function linkClick() {
+    linkCont.style.border = "1px solid #FFA509";
+    linkCont.style.background = "#232323";
+    document.getElementById("linkFill").innerHTML = "Join private or public rooms to connect with friends and share music.";
+}
+function qClick() {
+    qCont.style.border = "1px solid #FFA509";
+    qCont.style.background = "#232323";
+    document.getElementById("qFill").innerHTML = "Connect to Spotify and add the music you want to hear to the room queue";  
+}
+function hostClick() {
+    hostCont.style.border = "1px solid #FFA509";
+    hostCont.style.background = "#232323";
+    document.getElementById("hostFill").innerHTML = "Be in charge of the music played in your room, or let the group decide! Manage privileges for users in the room and the way the room queue is handled.";  
+}
+</script>-->
+
 
 
 
