@@ -6,9 +6,8 @@
     margin-top:100px;
 }
 /*Logo Banner*/
-#Logo{
-    width: 40%;
-    height: 40%;
+#DownloadNowImg{
+    margin-left: 220px;
 }
 #gear-banner img{
     position: relative;
