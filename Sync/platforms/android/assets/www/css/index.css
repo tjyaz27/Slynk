@@ -1,5 +1,6 @@
 body {
     padding: 20px;
+    background-color: #D4D4D6;
 }
 #search-form, .form-control {
     margin-bottom: 20px;
@@ -15,4 +16,30 @@ body {
 }
 .cover.playing {
     border: 5px solid #e45343;
+}
+
+.custom-search-form{
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: screen.width;
+}
+
+#trackValue {
+	width: 75%;
+}
+#searchButton {
+	width: 20%;
+	float: right;
+}
+
+img {
+
+	height: 50px;
+	width: 50px;
+}
+
+ul {
+
+	width: screen.width;
 }

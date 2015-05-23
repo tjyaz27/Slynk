@@ -7,25 +7,50 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-
-        <script>
-
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "http://ws.spotify.com/search/1/artist.json?q=Jarabe de Palo", false);
-        xhr.send();
-
-        var r = JSON.parse(xhr.responseText);
-        document.write('<iframe src="https://embed.spotify.com/?uri='+r.artists[1].href+'" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>');
-    </script>
-
+        
+        <title>Sync</title>
       
     </head>
     <body>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="input-group custom-search-form">
+                        <input type="text" class="form-control" id="trackValue">
+                            <input type="submit" class="btn btn-info" value="Go" id="searchButton" onclick="searchFunc()" >
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </br>
+
+        <script id="address-template" type="text/x-handlebars-template">
+            <ul class="list-group">
+                {{#each information}}
+                    <li class="list-group-item">
+                        <p><a href={{previewURL}}><img src={{picture}}>
+                        <audio src={{previewURL}} type='audio/mp4'></audio></a>
+
+                        {{track}} <b>{{artist}} </b>{{album}}</p>
+                    </li>
+                {{/each}}
+
+        </script>
+
+        <div class="content-placeholder"></div>
+
 
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/searchArtist.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/handlebars/handlebars.min.js"></script>
+        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js">
     </body>
 </html>
