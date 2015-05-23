@@ -1,35 +1,113 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <link type="text/css" rel="stylesheet" href="css/index.css" />
+  
+  <script src="bower_compenents/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
 
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+</head>
+<body style="background-image: url('img/AppBackground.png')">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid" style="border-bottom: 1px solid #FFA509">
+   <div>
+      <ul class="nav navbar-nav navbar-left">
+        <li><a style="color:#FFA509" href="#"><span class="glyphicon glyphicon-download"></span> Download</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a id="modal_trigger" href="#modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="jumbotron" style="background-color: #232323">
+    <h1 style="text-align: center; color:#737373">Introducing <span style="color:#FFA509">Slynk</span></h1>
+    <p style="text-align: center; color:#737373">The app that lets you <span style="color: #FFA509; font-weight: bold">Sync</span> with the trends, and<span style="color: #FFA509; font-weight: bold"> Link</span> with your friends!</p>
+  </div>
+</div>
 
-        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        
-        <title>Sync</title>
-      
-    </head>
-    <body>
+<div class="container-fluid">
+<div class="row" style="height: 640px">
+  <div class="col-sm-10">
+    <img id="DownloadNowImg" class="img-responsive" src="img/Download.png" alt="Download" href="#">
+  </div>
+  <div class="col-sm-2"></div>
+</div>
+  <!--<div class="row">
+    <div class="col-sm-4" style="background-color: #232323; background-image: url('img/Sync.png'); border-radius: 15px; border: 1px solid #FFA509; height: 300px">
+      <h3 style="color:#FFA509; text-align:center">Sync</h3>
+      <p style="color:#FF9900">Match song timestamps with your friends on all devices so everyone can enjoy the same music together.</p>
+    </div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4" id="linkCont" style="border-radius: 15px; border: 1px solid #FFA509; height: 125px">
+      <h3 id="LinkI" style="color:#FFA509; text-align:center">Link</h3>
+      <p id="linkFill" style="color:#FF9900">Join private or public rooms to connect with friends and share music.</p>
+    </div>
+  </div>
+  <div class="row" style="padding-top: 50px">
+    <div class="col-sm-4" id="qCont" style="border-radius: 15px; border: 1px solid #FFA509; height: 125px">
+      <h3 id="qI" onclick="qClick()" style="color:#FFA509; text-align:center">Queue</h3>
+      <p id="qFill" style="color:#FF9900">Connect to Spotify and add the music you want to hear to the room queue.</p>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>-->
+  <div class="row">
+    <div class="col-sm-5" style="background-color: #232323; background-image: url('img/Sync.png'); border: 1px solid #FFA509; height: 640px">
+    </div>
+    <div class="col-sm-7" style="background-color: #232323; background-image: url('img/Link.png'); border: 1px solid #FFA509; height: 640px">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-7" style="background-color: #232323; background-image: url('img/mic.png'); border: 1px solid #FFA509; height: 777px">
+    </div>
+    <div class="col-sm-5" style="background-color: #232323; background-image: url('img/host.png'); border: 1px solid #FFA509; height: 777px">
+    </div>
+  </div>
+</div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="input-group custom-search-form">
-                        <input type="text" class="form-control" id="trackValue">
-                            <input type="submit" class="btn btn-info" value="Go" id="searchButton" onclick="searchFunc()" >
+<div class="container">
+  <div id="modal" class="popupContainer" style="border: 2px outset #FFA509; display:none">
+    <header class="popupHeader">
+      <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+    </header>
+    
+    <section class="popupBody" style="background-color:#777777">
+      <!-- Social Login -->
+      <div class="social_login">
+        <div class="">
+          <a href="#" class="social_box fb">
+            <span class="icon"><i class="fa fa-facebook"></i></span>
+            <span class="icon_title">Log In with Facebook</span> 
+          </a>
 
-                    </div>
-                </div>
-            </div>
+          <a href="#" class="social_box google">
+            <span class="icon"><i class="fa fa-google-plus"></i></span>
+            <span class="icon_title">Log In with Google</span>
+          </a>
+
+          <a href="#" class="social_box mail" id="login_form">
+            <span class="icon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <span class="icon_title">Log In with valid Email</span>
+          </a>
+
         </div>
-        </br>
 
+<<<<<<< HEAD
         <script id="address-template" type="text/x-handlebars-template">
             <ul class="list-group">
                 {{#each information}}
@@ -42,15 +120,148 @@
                 {{/each}}
 
         </script>
+=======
+        <div class="action_btns">
+          <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+          <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+        </div>
+      </div>
 
-        <div class="content-placeholder"></div>
+      <!-- Username & Password Login form -->
+      <div class="user_login">
+        <form>
+          <label>Email / Username</label>
+          <input type="text" />
+          <br />
+
+          <label>Password</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="remember" type="checkbox" />
+            <label for="remember">Remember me on this computer</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+            <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+          </div>
+        </form>
+
+        <a href="#" class="forgot_password">Forgot password?</a>
+      </div>
+
+      <!-- Register Form -->
+      <div class="user_register">
+        <form>
+          <label>Full Name</label>
+          <input type="text" />
+          <br />
+
+          <label>Email Address</label>
+          <input type="email" />
+          <br />
+
+          <label>Password</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="send_updates" type="checkbox" />
+            <label for="send_updates">Send me occasional email updates</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+            <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-sm-4">
+      <h3>Social Media</h3>
+      <p>Facebook</p>
+      <p>Twitter</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Contact</h3>
+      <p>Legal</p>
+      <p>Support</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>News</h3>        
+      <p>Release Notes</p>
+      <p>Articles</p>
+    </div>
+</div>
+
+<script type="text/javascript">
+  $("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+  $(function(){
+    // Calling Login Form
+    $("#login_form").click(function(){
+      $(".social_login").hide();
+      $(".user_login").show();
+      return false;
+    });
+
+    // Calling Register Form
+    $("#register_form").click(function(){
+      $(".social_login").hide();
+      $(".user_register").show();
+      $(".header_title").text('Register');
+      return false;
+    });
+
+    // Going back to Social Forms
+    $(".back_btn").click(function(){
+      $(".user_login").hide();
+      $(".user_register").hide();
+      $(".social_login").show();
+      $(".header_title").text('Login');
+      return false;
+    });
+
+  })
+</script>
+<!--<script>
+function featuresList(){
+    document.getElementById("SyncI").innerHTML = "Sync";
+    document.getElementById("LinkI").innerHTML = "Link";
+    document.getElementById("hostI").innerHTML = "Host";
+    document.getElementById("qI").innerHTML = "Queue";
+}
+function syncClick() {
+    syncCont.style.border = "1px solid #FFA509";
+    syncCont.style.background = "#232323";
+    document.getElementById("syncFill").innerHTML = "Match song timestamps with your friends on all devices so everyone can enjoy the same music together.";
+}
+function linkClick() {
+    linkCont.style.border = "1px solid #FFA509";
+    linkCont.style.background = "#232323";
+    document.getElementById("linkFill").innerHTML = "Join private or public rooms to connect with friends and share music.";
+}
+function qClick() {
+    qCont.style.border = "1px solid #FFA509";
+    qCont.style.background = "#232323";
+    document.getElementById("qFill").innerHTML = "Connect to Spotify and add the music you want to hear to the room queue";  
+}
+function hostClick() {
+    hostCont.style.border = "1px solid #FFA509";
+    hostCont.style.background = "#232323";
+    document.getElementById("hostFill").innerHTML = "Be in charge of the music played in your room, or let the group decide! Manage privileges for users in the room and the way the room queue is handled.";  
+}
+</script>-->
+
+>>>>>>> 8b11e144ddcf066bb4245451ac2418808ba532fb
 
 
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/searchArtist.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/handlebars/handlebars.min.js"></script>
-        <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js">
-    </body>
+
+</body>
 </html>

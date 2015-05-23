@@ -1,0 +1,63 @@
+#header-banner img{
+	float:right;
+	padding-top: 10px;
+}
+#gear-banner img{
+	position: relative;
+	left: 650px;
+	top: 22px;
+}
+#acc h1{
+	font-size: 12px;
+	position: relative;
+	left: 490px;
+	top: 9px;
+}
+#side_but img{
+	width: 27px;
+	height: 18px;
+	position: relative;
+	top: 28px;
+	right: 1400px;
+}
+#account{
+    text-align:right;
+    padding:0px;
+}
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+.cover {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 5px solid #e45343;
+}
+
+.custom-search-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: screen.width;
+}
+
+#trackValue {
+	width: 75%;
+}
+#searchButton {
+	width: 20%;
+	float: left;
+}
+#AlbumArt img {
+	height: 100px;
+	width: 100px;
+}
+#Background{
+	background-color: #b0c4de;
+}
+

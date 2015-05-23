@@ -1,6 +1,80 @@
+<<<<<<< HEAD
 body {
     padding: 20px;
     background-color: #D4D4D6;
+=======
+.navbar-header{
+    width:200px;
+    margin-left:40% !important;
+}
+.content{
+    margin-top:100px;
+}
+/*Logo Banner*/
+#DownloadNowImg{
+    margin-left: 220px;
+}
+#gear-banner img{
+    position: relative;
+    float: right; 
+    top: 22px;
+    left:15px;
+    width: 25px;
+    height: 25px; 
+}
+#acc h1{
+    font-size: 12px;
+    color:rgb(210,183,51);
+    position: relative;
+    float: left;
+    top: 9px;
+    right:13px;
+}
+#side_but img{
+    width: 27px;
+    height: 18px;
+    position: relative;
+    top: 22px;
+    left:15px;
+}
+#account{
+    text-align:right;
+    padding:0px;
+}
+/*End Logo Banner*/
+/*Group Banner*/
+#Users img{
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+#NUsers{
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+    right: 285px;
+    color: white;
+}
+#Heart img{
+    width: 31px;
+    height: 28px;
+    position: relative;
+    float: right;
+    right: 80px;
+    top: 13px;
+}
+#GroupInfo{
+    float: center;
+    text-decoration: none;
+    color:rgb(210,183,51);
+    position: relative;
+    left: 215px;
+    top: 12px;
+    font-size: 20px;
+    font-family:'Source Sans Pro';
+    font-weight: 600;
+>>>>>>> 8b11e144ddcf066bb4245451ac2418808ba532fb
 }
 #search-form, .form-control {
     margin-bottom: 20px;
@@ -19,22 +93,28 @@ body {
 }
 
 .custom-search-form{
-    margin-top:10px;
     margin-left: auto;
     margin-right: auto;
     width: screen.width;
 }
 
 #trackValue {
-	width: 75%;
+    width: 75%;
 }
 #searchButton {
-	width: 20%;
-	float: right;
+    width: 20%;
+    float: left;
+}
+#AlbumArt img {
+    height: 100px;
+    width: 100px;
+}
+#Background{
+    background-color: #b0c4de;
 }
 
-img {
 
+<<<<<<< HEAD
 	height: 50px;
 	width: 50px;
 }
@@ -43,3 +123,5 @@ ul {
 
 	width: screen.width;
 }
+=======
+>>>>>>> 8b11e144ddcf066bb4245451ac2418808ba532fb
