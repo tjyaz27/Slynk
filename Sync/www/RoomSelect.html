@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Slynk - Room Select</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+  
+  <script src="bower_compenents/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+      if($("#TopHeader").html() == 'Host'){
+        $('#TopHeader').fadeOut('slow', function() { $('#TopHeader').html('Public');$('#TopHeader').fadeIn('slow');});
+        $('#BottomHeader').fadeOut('slow', function() {$('#BottomHeader').html('Private');$('#BottomHeader').fadeIn('slow');});
+      }
+      if($("#TopHeader").html() == 'Join'){
+        $('#TopHeader').fadeOut('slow', function() { $('#TopHeader').html('Public');$('#TopHeader').fadeIn('slow');});
+        $('#BottomHeader').fadeOut('slow', function() {$('#BottomHeader').html('Private');$('#BottomHeader').fadeIn('slow');});
+      }
+    });
+});
+</script>
+
+</head>
+<body style="background-image: url('img/AppBackground.png')">
+<!-- Color for NavBar is RGB(157,157,157) -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid" style="border-bottom: 1px solid #FFA509">
+      <div>
+        <ul class="nav navbar-nav navbar-left">
+          <li><a style="color:#FFA509" href="#"><span><img id="side_but" src="img/Sidebar-Button.png"></span></a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a id="nav-color" href="#"><span class="glyphicon glyphicon-cog"></span> Account Settings</a></li>
+          <li><a id="modal_trigger" href="#modal"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" id="BCenter">
+        <button class="button" style="button"><h1 class="MainFormat" id="TopHeader">Host</h1></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" id="BCenter">
+        <button class="button" style="button"><h1 class="MainFormat" id="BottomHeader">Join</h1></button>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>

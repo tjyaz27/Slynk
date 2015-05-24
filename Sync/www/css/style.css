@@ -76,3 +76,31 @@ a.btn_red {color: #FFF;}
 .user_register input[type="checkbox"]+label {float:left;}
 
 .user_register .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+
+#side_but{
+}
+
+#nav-color{
+    color:#6E6E6E;
+}
+
+.button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.MainFormat{
+    color: #FFA509;
+    font-size: 100px;
+}
+.SecondaryFormat{
+    color: #FFA509;
+    font-size: 75px;
+    margin: 35px 0 0 0;
+}
+#BCenter{
+    text-align: center;
+}

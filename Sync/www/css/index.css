@@ -32,13 +32,6 @@ body {
     top: 9px;
     right:13px;
 }
-#side_but img{
-    width: 27px;
-    height: 18px;
-    position: relative;
-    top: 22px;
-    left:15px;
-}
 #account{
     text-align:right;
     padding:0px;
