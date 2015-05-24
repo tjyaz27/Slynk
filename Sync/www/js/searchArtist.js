@@ -1,6 +1,3 @@
-var i = 0;
-
-
 function searchFunc() {
 
         var xhr = new XMLHttpRequest();
@@ -22,7 +19,6 @@ function searchFunc() {
          var context={
             information: [
               {
-                previewURL: r.tracks.items[i].preview_url,
                 picture: r.tracks.items[i].album.images[0].url,
                 artist: r.tracks.items[i].artists[0].name,
                 track: r.tracks.items[i].name,

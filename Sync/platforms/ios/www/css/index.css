@@ -1,6 +1,5 @@
 body {
     padding: 20px;
-    background-color: #D4D4D6;
 }
 #search-form, .form-control {
     margin-bottom: 20px;
@@ -35,11 +34,6 @@ body {
 
 img {
 
-	height: 50px;
-	width: 50px;
-}
-
-ul {
-
-	width: screen.width;
+	height: 100px;
+	width: 100px;
 }

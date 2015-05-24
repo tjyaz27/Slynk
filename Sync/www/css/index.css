@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 body {
     padding: 20px;
+<<<<<<< HEAD
     background-color: #D4D4D6;
 =======
 .navbar-header{
@@ -75,6 +76,8 @@ body {
     font-family:'Source Sans Pro';
     font-weight: 600;
 >>>>>>> 8b11e144ddcf066bb4245451ac2418808ba532fb
+=======
+>>>>>>> parent of dde1c80... Some changes
 }
 #search-form, .form-control {
     margin-bottom: 20px;
@@ -115,6 +118,7 @@ body {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	height: 50px;
 	width: 50px;
 }
@@ -125,3 +129,8 @@ ul {
 }
 =======
 >>>>>>> 8b11e144ddcf066bb4245451ac2418808ba532fb
+=======
+	height: 100px;
+	width: 100px;
+}
+>>>>>>> parent of dde1c80... Some changes

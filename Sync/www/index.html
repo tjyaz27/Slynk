@@ -109,16 +109,9 @@
 
 <<<<<<< HEAD
         <script id="address-template" type="text/x-handlebars-template">
-            <ul class="list-group">
-                {{#each information}}
-                    <li class="list-group-item">
-                        <p><a href={{previewURL}}><img src={{picture}}>
-                        <audio src={{previewURL}} type='audio/mp4'></audio></a>
-
-                        {{track}} <b>{{artist}} </b>{{album}}</p>
-                    </li>
-                {{/each}}
-
+            {{#each information}}
+                <p><img src={{picture}}> {{track}} <b>{{artist}} </b>{{album}}</p>
+            {{/each}}
         </script>
 =======
         <div class="action_btns">
