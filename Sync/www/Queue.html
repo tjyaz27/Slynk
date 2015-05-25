@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Slynk - Room Select</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+  
+  <script src="bower_compenents/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+
+<!--$("<li style='border-bottom: 1px solid #FFA509; padding-top:20px'>Test</li>").appendTo('#list');-->
+<script>
+$(document).ready(function(){
+  $('#inputbut').click(function(){
+    var text = $('#inputName').val();
+    if(text.length){
+        $('<li />', {html: text}).appendTo("#list")
+    }
+  });
+});
+</script>
+</head>
+<body style="background-image: url('img/AppBackground.png')">
+<div class="container">
+<div class="row">
+  <div class="col-sm-12">
+    <div class="input-group">
+      <input id="inputName" type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button id="inputbut" class="btn btn-default" type="button">Search</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+</div>
+<div class="container">
+  <ul class="QList" id="list"></ul>
+</div>
+</body>

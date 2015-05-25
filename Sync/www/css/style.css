@@ -104,3 +104,11 @@ a.btn_red {color: #FFF;}
 #BCenter{
     text-align: center;
 }
+.QList{
+    text-align:center;
+    padding-top: 50px;
+    padding-right: 50px;
+    list-style-type:none;
+    font-size: 25px;
+    color: white;
+}
