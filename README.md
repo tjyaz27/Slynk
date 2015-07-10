@@ -1,6 +1,6 @@
 --------------------------------------------------------------
 SYNC V.1.0 
-@Tommy Yasewicz, Alex Wilson, Yaron Shahverdi
+@Tommy Yasewicz, Alex Wilson, Kolby Kruger
 --------------------------------------------------------------
 
 Folder Directory
@@ -36,4 +36,4 @@ Contact
 
 Tommy Yasewicz	 :	tjyaz3@gmail.com
 Alex Wilson    	 :	alexwilson93@outlook.com
-Yaron Shahverdi	 :	yshahver@u.rochester.edu
+Kolby Kruger	 :  kolbykruger@gmail.com
